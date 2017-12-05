@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+#top {
+	background: #222;
+	height: 50px;
+}
+
+#top a {
+	color: #9D9D9B;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 50px;
+	padding: 10px;
+}
+
+#top a:hover {
+	color: #fff;
+}
+
+.panel-default {
+	width: 90%;
+	margin: 10px auto;
+}
+
+div.addDiv {
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#editCategoryDiv,#propertyDiv {
+	width: 90%;
+	margin: 10px auto;
+}
+
+table.addTable {
+	width: 100%;
+}
+
+table.addTable td {
+	padding: 5px;
+}
+
+table.editTable td {
+	padding: 5px;
+}
+
+td {
+	font-size: 14px;
+}
+
+td.addPictureTableTD {
+	padding: 10px 100px;
+	text-align: center;
+	vertical-align: top;
+}
+
+div.addPictureDiv {
+	width: 400px;
+}
+
+div.editDiv {
+	width: 400px;
+	margin: 0px auto;
+}
+
+div.editPVDiv {
+	width: 800px;
+	margin: 0 auto;
+}
+
+div.eachPV {
+	float: left;
+	margin: 5px;
+}
+span.pvName {
+    display: inline-block;
+    width: 100px;
+    color: #555555;
+    font-size: 16px;
+     font-weight: bold;
+    margin-left: 20px;
+}
+span.pvValue {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid lightgray;
+    padding: 0px;
+}
+span.pvValue input {
+    border-width: 0px;
+}

@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+	list-type:none;
+	text-decoration:none;
+	color:black;
+	font-size: 14px;
+}
+span{
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+body {
+	text-align:center;
+}
+/* 网页整体框架  */
+#entirety{
+	width: 100%;
+}
+/* === ===头部logo部分=== === */
+#top{
+	width: 80%;
+	display:inline-block;
+	/* height: 100px; *//* tem */
+	background-color: orange;/* tem */
+}
+#top .logo{
+	width: 50%;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+}
+
+
+/* === ===购物车内容=== === */
+#centre{
+	display: inline-block;
+	width: 80%;
+}
+/* 结算-共同样式 */
+#centre .atype{
+	color: white;
+	background-color: red;
+	/* font-weight: bold; */
+}
+
+/* ---上部分总价--- */
+#centre .sabove{
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+}
+#centre .sabove a{
+	padding: 3px 8px;
+}
+
+/* ---表格内容--- */
+#centre .stable{
+	
+}
+#centre .stable table{
+	text-align: left;
+	width:100%;
+	/* height:100px; *//* tem */
+	border-collapse: collapse;
+}
+#centre .stable table tr{
+	border: 1px solid #dbdbdb;/* tr属性特殊，无法单独添加边框*/
+}
+#centre .stable table trloc{
+	height: 130px;
+	line-height: 130px;
+}
+#centre .stable table img{
+	width: 100px;
+	height: 100px;
+}
+#centre .stable table .chinp{
+	height: 130px;
+	line-height: 130px;
+}
+/* 删除a标签属性 */
+#centre .stable table a{
+	color:gray;
+	font-size: 14px;
+}
+.chinp{
+	display: inline-block;
+}
+/* td集 */
+#centre .stable table .td1{
+	width: 5%;
+}
+#centre .stable table .td2{
+	width: 13%;
+}
+#centre .stable table .td3{
+	width: 41%;
+}
+#centre .stable table .td4{
+	width: 10%;
+}
+#centre .stable table .td5{
+	width: 14%;
+}
+#centre .stable table .td5 input{
+	width: 40px;
+}
+#centre .stable table .td6{
+	width: 12%;
+}
+#centre .stable table .td7{
+	width: 5%;
+}
+/* ---下部分总价--- */
+#centre .sbelow {
+	width:100%;
+	height: 50px;
+	background-color: #cccccc;
+	margin-top: 20px;
+	text-align:right;
+}
+/* #centre .sbelow {.leftsbe
+	width:48%;
+	text-align: left;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+} */
+/* #centre .sbelow {.rightsbe
+	width:100%;
+	text-align:right;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+} */
+#centre .sbelow  .zongjia{/* .rightsbe */
+	font-size: 30px;
+}
+#centre .sbelow a{ 
+	padding:16px 26px;
+	font-size:16px;
+	/* margin-right: -7px;
+	margin-top: -5px; */
+	
+}
+/* === ===底部=== === */
+
+
+
+

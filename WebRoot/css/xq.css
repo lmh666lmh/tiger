@@ -1,0 +1,413 @@
+@CHARSET "UTF-8";
+
+* {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	min-width: 1200px;
+}
+
+#demo-navbar ul { /* margin-left: 550px; 开启后响应式布局会被破坏*/
+	
+}
+/* 设置搜索start */
+#list {
+	text-align: center;
+	/*     border:2px solid gray;  */
+}
+
+#list .item {
+	display: inline-block;
+	text-align: left;
+	margin-left: 100px;
+}
+
+#list1 .item1 { /* display: inline-block; */
+	margin-left: -80px;
+}
+
+#list2 {
+	display: inline-block;
+	height: 35px;
+}
+
+#list2 .item2 {
+	display: inline-block;
+	border: 2px solid green;
+	width: 400px;
+	height: 40px;
+	margin-right: -5px;
+}
+
+#list .item a {
+	background-color: green;
+	display: inline-block;
+	width: 50px;
+	height: 41px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 41px;
+	margin-top: -20px;
+}
+
+#list3 {
+	background-color: #F0F0F0;
+	height: 50px;
+	width: 100px;
+
+	/* border: 2px solid green ; */
+}
+
+#list3 .item3 {
+	text-align: center;
+	line-height: 50px;
+}
+
+/* 设置搜索end */
+/* 设置导航栏2start */
+#nav2 {
+	margin-top: 40px;
+	margin-bottom: -10px;
+}
+
+#nav2 ul {
+	margin-left: 200px;
+}
+
+#nav2 ul li {
+	display: inline-block;
+}
+
+#nav2 ul  a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	margin-left: 50px;
+	color: black;
+}
+
+#nav2 .k {
+	float: left;
+	/* background-color:red; */
+	margin-left: 50px;
+	font-weight: 700;
+}
+
+#nav2 .k a {
+	display: inline-block;
+	text-decoration: none;
+	width: 80px;
+	height: 30px;
+	background-color: #ff2832;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+#hr {
+	border: 2px solid #ff2832;
+}
+/* 设置导航栏2end */
+/* 设置书本详情start */
+#book {
+	text-align: center;
+	margin-bottom: 30px;
+	/* border: 2px solid pink ; */
+}
+
+#book1 {
+	position: relative;
+	top: 20px;
+}
+
+#book1 .book11 {
+	border: 2px solid #EEE9E9;
+	height: 250px;
+	margin-top: -300px;
+	margin-left: -100px;
+}
+
+#book1 .promotion_icon {
+	width: 74px;
+	position: absolute;
+	top: -320px;
+	right: 10px;
+}
+
+#book .bookitem {
+	display: inline-block;
+	text-align: left;
+	margin-left: 100px;
+}
+
+#book2 { /* border: 2px solid pink; */
+	width: 600px;
+}
+
+#book2 a {
+	text-decoration: none;
+	display: inline-block;
+	height: 40px;
+	width: 130px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#addShowCar {
+	background-color: #ffe7e5;
+	color: red;
+}
+
+#buy_now {
+	background-color: #FF3030;
+	color: white;
+}
+
+#book2 .bookitem2 {
+	border: 1px solid #faafaa;
+	background-color: #ffe7e5;
+	height: 40px;
+	width: 600px;
+}
+
+#book2 .bookitem2 .mj {
+	padding-left: 17px;
+	font-size: 17px;
+	color: #fff;
+	display: inline-block;
+	background: url(icon/arrow.png) right center no-repeat #ee554a;
+	padding-right: 17px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#book2 .bookitem2 .promo_price {
+	margin-left: 10px;
+	color: #ee554a;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+#book2 .bookitem3 .promo_price {
+	margin-left: 10px;
+	color: #ee554a;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+#pf {
+	color: #FFB90F;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+#book2 .bookitem2 .promo_price em {
+	color: #666;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+#book2 .bookitem3 {
+	background-color: #F0F0F0;
+	height: 80px;
+	width: 600px;
+}
+
+/*   修改 =================================================================== */
+#book .productSaleAndReviewNumber {
+	margin: 10px 0px;
+	border-top-style: dotted;
+	border-top-color: #C9C9C9;
+	border-top-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #C9C9C9;
+	border-bottom-width: 1px;
+	padding: 10px;
+}
+
+.amount-input {
+	width: 36px;
+	height: 30px;
+}
+
+.addAmont {
+	position: relative;
+	top: -10px;
+}
+
+.delAmont {
+	position: relative;
+	top: 5px;
+	left: -20px;
+}
+
+.boldWord {
+	font-weight: bold;
+}
+
+.redColor {
+	color: #C40000;
+}
+
+#book3 {
+	float: right;
+	/* 	border: 2px solid pink; */
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+/* 设置书本详情end */
+
+/* 标签页设置start */
+#tab-list {
+	background-color: #F0F0F0;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.tab-content {
+	width: 1100px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+/* 标签页设置end */
+/* 图片轮播设置 */
+#myCarousel .tuijian {
+	width: 1300px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #ebe6e1;
+	padding-left: 20px;
+	color: #222;
+	margin-top: 20px;
+	background: #f5f5f5;
+}
+
+#about p {
+	text-align: center;
+	font-size: 20px;
+}
+
+#biaoti {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#imgys {
+	width: 350px;
+}
+
+#product_img {
+	float: left;
+	width: 320px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+
+#product_img img {
+	width: 260px;
+	height: 260px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #eee;
+}
+
+#product_img ul li {
+	width: 57px;
+	height: 57px;
+	float: left;
+}
+
+#product_img ul li a img {
+	overflow: hidden;
+	width: 56px;
+	height: 56px;
+}
+
+#product_img ul li a img:hover {
+	border: 1px solid #ccc;
+}
+
+div.searchResultDiv {
+	max-width: 1000px;
+	margin: 10px auto;
+	min-height: 300px;
+}
+
+div.productUnit {
+	width: 225px;
+	height: 350px;
+	border: 3px solid #eee;
+	background-color: white;
+	margin: 12px 5px;
+	float: left;
+	padding: 0px;
+}
+div.productUnit:hover{
+		border: 3px solid #989898;
+	box-shadow: 10px 10px 5px #888888;
+}
+div.productUnit img.productImage {
+    width: 100%;
+    height: 190px;
+}
+div.productUnit span.productPrice {
+    font-size: 20px;
+    color: #CC0000;
+    display: block;
+    padding-left: 4px;
+}
+div.productUnit a.productLink {
+    margin: 10px 0px;
+    color: #333333;
+    font: 0.8em;
+    display: block;
+}
+div.productUnit a.productLink:hover {
+    font-weight: bolder;
+}
+div.productUnit a.tmallLink {
+    margin: 10px 0px;
+    color: #999999;
+    font: 0.8em;
+    display: block;
+    text-decoration: underline;
+}
+div.productUnit div.productInfo {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #EEEEEE;
+}
+div.productUnit span.monthDeal, div.productUnit span.productReview {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+div.productUnit span.wangwang {
+    padding-left: 3px;
+}
+div.productUnit span.productReviewNumber {
+    font-weight: bold;
+    color: #3388BB;
+}
+div.productUnit span.productDealNumber {
+    font-weight: bold;
+    color: #B57C5B;
+}
+div.noMatch {
+    font-size: 20px;
+    width: 200px;
+    margin: 100px auto;
+    color: #888;
+}

@@ -1,0 +1,263 @@
+@charset "utf-8";
+body {
+background:url(../img/xh.jpg);
+	font-family: Microsoft YaHei, sans-serif;
+	postion:relative;
+	 background-position: center;
+	  /*background-repeat: no-repeat;*/ 
+	  width: 100%; height: 100%;
+	   background-size: 100% 100%;
+}
+
+html {
+	 width: 100%; 
+	height: 100%;
+	overflow: hidden;
+}
+
+.theCenterBox {
+ 
+	margin: 0 auto;
+	min-height: 100%;
+	height: 70%;
+	width: 700px;
+padding: 0px 8px 8px 35px;
+	vertical-align: middle;
+	z-index: 1;
+}
+.tdError {
+margin-top:-56px;
+padding-left:310px;
+	text-align:center;
+	height:auto;
+	display:inline-block;
+	
+	}
+.errorClass {
+
+	background:url(../img/error2.png) no-repeat;
+	background-size:20px 20px;
+	background-position:left;
+ background-color: #fef2f2;
+	color: #f40000;
+	font-size: 15px;
+	border:1px solid #ffb8b8; 
+   
+	padding: 5px 10px 5px 30px;
+	display：block;	
+	text-align:center;
+
+	   }
+.theCenterBox .theLogoImg {
+	margin: 0 auto;
+	border: none;
+	display: block;
+}
+
+.theCenterBox .theLoginBox {
+	 filter: Alpha(Opacity=10, Style=0);
+    opacity: 1.0;
+		 position:static;
+	
+  background-color:white;
+	
+	 display: table-cell;
+    vertical-align: middle;  
+    
+	border: 1px solid #d1dee2;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: rgba(24, 108, 162, 0.6) 4px;
+	padding: 0;
+
+
+
+ width: 50%; 
+  height: 80%; 
+ 
+  overflow: auto; 
+  margin: auto; 
+  position: absolute; 
+  top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+.theCenterBox .theLoginBox .loginTxt {
+	margin: 40px 0px 0px 43px;
+	font-size: 16px;
+	color: #4F6B21;
+	font-weight: normal;
+}
+
+.theLoginBox .theLoginArea {
+	
+	margin: 10px 34px 0px 45px;
+}
+
+.theLoginBox .theLoginArea p {
+	margin: 1px 0px 0px 0px;
+	height: 92px;
+	width: 330px;
+}
+
+.theLoginBox .theLoginArea p label {
+	font-size: 14px;
+	text-align:left;
+	color: #666;
+	padding: 0;
+}
+
+.theLoginBox .theLoginArea p input {
+	float:left;
+	display: inline-block;
+	line-height: 18px;
+
+
+	border: 1px solid #D2D9DC;
+	
+	outline: none;
+	width: 290px;
+	margin: 8px 0px;
+	height: 38px;
+	
+	padding: 8px 0px 8px 8px;
+}
+
+.theLoginBox .theLoginArea p span {
+	display: none;
+	width: 290px;
+	background: url(images/tip_bg.png) repeat;
+	line-height: 21px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 8px;
+	font-size: 12px;
+	border-radius: 3px;
+	color: #c83100;
+	border: 1px solid #fceec1;
+}
+
+.theLoginBox .theLoginArea .loginSubmitBnt .theRememberMe,
+.theLoginBox .theLoginArea .loginSubmitBnt .theRememberMeLabel {
+	display: inline-block;
+	margin: 26px 0px 15px 0px;
+	color: #666;
+	font-size: 14px;
+}
+
+.theLoginBox .theLoginArea .loginSubmitBnt .forgotPasswordEm {
+	font-size: 12px;
+	position: relative;
+	top: 8px;
+	margin-left: 50px;
+	text-align: right;
+}
+
+.theLoginBox .theLoginArea .loginSubmitBnt .forgotPasswordEm a:link,
+.theLoginBox .theLoginArea .no_allow a:link,
+.theLoginBox .theLoginArea .no_allow a:visited,
+.theLoginBox .theLoginArea .loginSubmitBnt .forgotPasswordEm a:visited {
+	color: #ababab;
+	text-decoration: none;
+}
+
+
+
+
+.theLoginBox .theRegArea {
+	float: left;
+	width: 244px;
+	padding: 37px 0px 110px 0px;
+	border-left: 1px solid #ccc;
+	margin: 7px 0px 0px 0px;
+	height: 138px;
+}
+
+
+.theLoginBox .theRegArea h2 {
+	font-size: 16px;
+	color: #4f6b21;
+	font-weight: normal;
+	text-align: center;
+}
+
+.theLoginBox .theRegArea p {
+	text-align: center;
+	font-size: 14px;
+	padding: 18px 0px 34px 0px;
+}
+
+
+/*注册页面*/
+
+.theRegArea .apply_reg {
+	display: block;
+	background: url(images/apply_account.png) no-repeat 0px 0px;
+	height: 35px;
+	width: 99px;
+	padding: 0px;
+}
+
+.theRegArea .apply_reg:hover {
+	display: block;
+	background: url(images/apply_account.png) no-repeat -115px 0px;
+	height: 35px;
+	width: 99px;
+	padding: 0px;
+}
+
+.theRegArea .reg_login {
+	display: block;
+	background: url(images/login_bg.png) no-repeat -15px -10px;
+	height: 45px;
+	width: 100px;
+	padding: 0px;
+}
+
+.theRegArea .reg_login:hover {
+	display: block;
+	background: url(images/login_bg.png) no-repeat -123px -10px;
+	height: 45px;
+	width: 100px;
+	padding: 0px;
+}
+
+.loginSubmitBnt .reg_submit {
+	margin: 0px 0px 33px 0px;
+	border: none;
+	display: block;
+	background: url(images/login_bg.png) no-repeat -12px -101px;
+	height: 45px;
+	width: 105px;
+	padding: 0px;
+}
+
+.loginSubmitBnt .reg_submit:hover {
+	background: url(images/login_bg.png) no-repeat -120px -101px;
+	height: 45px;
+	width: 105px;
+	padding: 0px;
+}
+#divVerifyCode img{
+	margin-left:10px;
+	margin-top:11px;
+}
+#changecodeLabel{
+	margin-bottom:10px;
+		text-align:center;
+}
+#changecode {
+
+	margin-left:10px;
+		margin-top:-10px;
+}
+#submitBtn{
+	height:47px;
+	width: 300px;
+	background:#01c26f;
+	color:#fff;
+	font-size:14px;
+	background:-webkit-linear-gradient(#1fd783,#1fd06b);
+	background:-o-linear-gradient(#1fd783,#1fd06b);
+	background:-moz-linear-gradient(#1fd783,#1fd06b);
+	background:linear-gradient(#1fd783,#1fd06b)
+	
+}

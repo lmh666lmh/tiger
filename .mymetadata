@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Tiger"
+  id="myeclipse.1511167933049"
+  context-root="/Tiger"
+  j2ee-spec="6.0"
+  archive="Tiger.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

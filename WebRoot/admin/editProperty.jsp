@@ -1,0 +1,72 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>编辑属性</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/admin.css">
+	<script type="text/javascript" src="./js/jquery_1.9.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#editForm").submit(
+					function() {
+					var name=document.getElementById("name").value;
+						if (name== "" || name== null|| name == undefined) {
+							alert("属性名称不能为空");
+							return false;
+						}
+						return true;
+					});
+		});
+
+	</script>
+  </head>
+  
+  <body>
+      <div id="top">
+   <a href="/Tiger/home"><img id="logo" alt="#" src="img/logo1.png"></a>
+   <a href="/Tiger/admin">Tiger后台</a>
+   <a href="/Tiger/admin">分类管理</a>
+   <a href="#">用户管理</a>
+   <a href="#">订单管理</a>
+   </div>
+   <div id="editCategoryDiv">
+   <div class="breadcrumb"><a href="/Tiger/admin">所有分类</a>&nbsp;&nbsp;/&nbsp;&nbsp;编辑属性</div>
+   <div class="panel panel-warning editDiv">
+	  <div class="panel-heading">编辑属性</div>
+	  <div class="panel-body">
+	    	<form method="post" id="editForm" action="/Tiger/property?cmd=editProperty&id=${p.ID}&currentPage=${currentPage}&cId=${cId}">
+	    		<table class="editTable">
+	    			<tr>
+	    				<td>属性名称</td>
+	    				<td><input  id="name" name="name" type="text" class="form-control" value="${p.name}" ></td>
+	    			</tr>
+	    			<tr>
+	    			<td>&nbsp;</td>
+	    			</tr>
+	    			<tr class="submitTR">
+	    				<td colspan="2" align="center">
+	    					<button type="submit" class="btn btn-success">提 交</button>
+	    				</td>
+	    			</tr>
+	    		</table>
+	    	</form>
+	  </div>
+	</div>
+	</div>
+  </body>
+</html>
